@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:paddingBottom="5dp"
+    card_view:cardElevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        >
+
+        <TextView
+            android:id="@+id/item_recycler_view_companyname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="XXXX公司"
+            android:textSize="13sp"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/item_recycler_view_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2017.02"
+            android:textSize="11sp"
+            android:gravity="right|center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/item_recycler_view_postion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXXX公司|dfad"
+            android:textSize="11sp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作业绩:"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/item_recycler_view_workachievement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.dfasdfasdfdsfljkjfas ka f .\n2.fsdfsfedfjaksdfjklsf ls f a f"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作内容:"
+            android:textSize="11sp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/item_recycler_view_workcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.dfasdfasdfdsfljkjfas ka f .\n2.fsdfsfedfjaksdfjklsf ls f a f"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="技能标签:"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/item_recycler_view_skillicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移动开发/Android"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

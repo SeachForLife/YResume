@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#21252a</color>
+    <color name="orange">#ff8c6a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ff14445a</color>
+    <color name="gainsboro">#dcdcdc</color><!--淡灰色 -->
+    <color name="darkgray">#a9a9a9</color><!--暗灰色 -->
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+</resources>

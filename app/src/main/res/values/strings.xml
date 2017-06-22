@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Carl_Yang</string>
+    <string name="main_title">个人中心</string>
+    <string name="main_person">个人简介</string>
+
+    <string name="qrcode_str">扫一扫上面的二维码图案，加我微信</string>
+
+    //个人资料
+    <string name="name">杨磷</string>
+    <string name="sex">男</string>
+    <string name="date">1988-05</string>
+    <string name="work_time">2011-07</string>
+    <string name="residence_address">湖北武汉</string>
+    <string name="live_address">北京-海淀</string>
+    <string name="phone_num">13720024997</string>
+    <string name="email">464479297@qq.com</string>
+    <string name="person_url">https://github.com/SeachForLife</string>
+
+    //自我评价
+    <string name="evaluation">
+        \t1.本人个性随和，自学能力强，喜欢关注钻研新技术。对android技术、人工智能方面有浓厚兴趣。喜欢用实际的东西和人进行交流。比如：客户交流，有时间就直接作出DEMO让客户直接操作来确认需求，没时间就直接手工画原型设计进行讲解。和同事交流，喜欢用拟物的方式来描述实现场景和设计思路。\n
+        \t2.本人认为：开发不是写代码的能力，而是解决问题的能力。现在度娘这么好，80%以上的问题有问必答。如何通过运用各种相关知识快速定位到问题的所在地，从而很好的解决此问题才是关键。
+    </string>
+
+    <string name="educational">
+        学校名称：武汉工业学院\n专业名称：电子信息科学与技术\n学历/学位：本科学士学位\n入学时间：2007-09\n毕业时间：2011-07
+    </string>
+
+    <string name="skill">
+        1.IDE：Android Studio（主）、Eclipse、MyEclipse\n
+2.原型设计工具：Axure Rp\n
+3.版本控制：SVN 、GIT\n
+4.设计模式：MVC（主），MVP\n
+5.框架及库：网络框架httputils、retrofit、volley，异步框架 Rxjava， 图片加载框架：glide(主)、Fresco，集成框架：xdroidmvp，开源播放器VLC\n
+6.知识及技能：socket TCP通讯、UDP广播通讯,长链接，UI层所有常用控件，视频加载	videoview，音频加载mediaplay，内置gps原生调用,全局ANR处理、混合APP开发（webview加载H5），butterknife插件，iconfont图标字符串化，Animator基本动画制作\n
+7.硬件相关：蓝牙通讯（BLE和基础通讯），RFID，ZIGBEE，433（了解内部通讯原理	及进行过通讯交互）\n
+8.数据存储：SP、sqlite、mysql、oracle、序列化\n
+9.函数库发布：自建函数库通过github发布到maven仓库中进行调用(自动升级，PDA ，邮件，Excel)\n
+10.数据格式：GSON解析json、simplexml解析xml\n
+11.第三方SDK：百度地图sdk\n
+    </string>
+
+    //图标文字
+    <string name="icon_category">&#xe699;</string>
+    <string name="icon_back">&#xe697;</string>
+    <string name="icon_close">&#xe69a;</string>
+    <string name="icon_evalua">&#xe69b;</string>
+    <string name="icon_education">&#xe705;</string>
+    <string name="icon_workexp">&#xe726;</string>
+    <string name="icon_skill">&#xe753;</string>
+    <string name="icon_qrc">&#xe6a9;</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="indicator_colors">
+        <item>@color/indicator_1</item>
+        <item>@color/indicator_2</item>
+        <item>@color/indicator_3</item>
+        <item>@color/indicator_4</item>
+    </array>
+    <string-array name="menu_name">
+        <item></item>
+        <item>自我评价</item>
+        <item>教育背景</item>
+        <item>工作经历</item>
+        <item>专业技能</item>
+        <item>二维码名片</item>
+    </string-array>
+    <string-array name="menu_icon">
+        <item>@drawable/close</item>
+        <item>@drawable/comments</item>
+        <item>@drawable/office</item>
+        <item>@drawable/bussiness_man</item>
+        <item>@drawable/bussiness_card</item>
+        <item>@drawable/icon_qrcode</item>
+    </string-array>
+</resources>
